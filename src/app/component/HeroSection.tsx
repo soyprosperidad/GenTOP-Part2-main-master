@@ -12,7 +12,7 @@ function HeroSection() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const target = 173765380 * 1000;
+      const target = 1737653800000 * 1000;
       const now = new Date();
       const difference = target - now.getTime();
 
