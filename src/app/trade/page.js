@@ -295,8 +295,8 @@ const usdtABI = [
 
 const usdtAddress = "0x55d398326f99059fF775485246999027B3197955"; // Replace with Contract 1 address
 const gentopAddress = "0x67Cd96b18747333f01668976bF4dF6d3f4a517c3"; // Replace with Contract 2 address
-const stakingContractAddress = "0x47F564607D6aCA3e2bDeaB4e09E8133b4dB86f13"; // Replace with Contract 3 address
-const preSaleContractAddress = "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597";
+const stakingContractAddress = "0x1035263f07F2853F15174f78f59c05230e5BbDD2"; // Replace with Contract 3 address
+const preSaleContractAddress = "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D";
 
 const providerOptions = {
   coinbasewallet: {
@@ -2490,7 +2490,7 @@ export default function Trade() {
         },
       ];
       const preSaleContract = new ethers.Contract(
-        "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597",
+        "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D",
         [
           {
             inputs: [
